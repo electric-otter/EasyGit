@@ -1,4 +1,5 @@
 Write-Output "help for a list of commands" | Get-Member
+Read-Host
 function clone {
        git clone Read-Host
 }
